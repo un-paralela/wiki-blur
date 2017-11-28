@@ -87,6 +87,7 @@ int readFile(char *fileName, int *array, int indexVec){
 }
 
 int main(int argc, char** argv){
+	// Total number of arguments
 	if(argc!=8){
         fprintf(stderr, "The format should be: fileRed fileGreen fileBlue #_Rows #_Cols kernel num_threads");
         exit(EXIT_FAILURE);
